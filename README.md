@@ -1,4 +1,15 @@
 # 🛡️ CYBEROPS ACADEMY — European Cybersecurity & Network Management
+
+<div align="center">
+
+[![Author](https://img.shields.io/badge/Author-0dh4m-00E5FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/0dh4m)
+[![Degree](https://img.shields.io/badge/Bachelor-European%20Cybersecurity%20FEDE-7928CA?style=for-the-badge)](https://github.com/0dh4m/cyberops-academy)
+[![Backend](https://img.shields.io/badge/Stack-PHP%208%20%7C%20PostgreSQL%20%7C%20AI-FF0080?style=for-the-badge)](https://github.com/0dh4m/cyberops-academy)
+[![Status](https://img.shields.io/badge/Status-Production%20Ready-success?style=for-the-badge)](https://github.com/0dh4m/cyberops-academy)
+
+</div>
+
+
 ### Plateforme Pédagogique & Opérationnelle du Bachelor Européen en Cybersécurité et Gestion des Réseaux (Groupe MIAGE / FEDE)
 
 An enterprise-grade, interactive learning and operational training platform specifically engineered for students and professionals enrolled in the European Bachelor in Cybersecurity and Network Management. Fully equipped with multi-provider AI integration, live in-browser security playgrounds, gamification, and zero-dependency production architecture.

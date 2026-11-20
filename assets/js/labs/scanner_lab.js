@@ -10,7 +10,7 @@ const ScannerLab = {
     },
     dockerfile: {
       label: "Insecure Dockerfile",
-      code: `FROM ubuntu:latest\n\n# Vulnerability: Running as root by default\nUSER root\n\nENV API_TOKEN="ghp_92934827492834729384729348"\n\nRUN apt-get update && apt-get install -y curl python3\n\n# Vulnerability: Overly permissive file permissions\nCOPY . /app\nRUN chmod -R 777 /app\n\nEXPOSE 8080\nCMD ["python3", "/app/server.py"]\n`
+      code: `FROM ubuntu:latest\n\n# Vulnerability: Running as root by default\nUSER root\n\nENV API_TOKEN="mock_dummy_token_92934827492834729384729348"\n\nRUN apt-get update && apt-get install -y curl python3\n\n# Vulnerability: Overly permissive file permissions\nCOPY . /app\nRUN chmod -R 777 /app\n\nEXPOSE 8080\nCMD ["python3", "/app/server.py"]\n`
     },
     authlog: {
       label: "Linux /var/log/auth.log (Brute Force)",

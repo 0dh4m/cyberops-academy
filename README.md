@@ -26,7 +26,7 @@ cybersec_platform/
 ├── _headers                     # Cloudflare Pages security & caching headers
 ├── package.json                 # Node manifest for local development & cloud runners
 ├── .gitignore                   # Git exclusion rules
-├── launch_portal.bat            # One-click Windows desktop launcher
+├── scripts/launch_portal.bat            # One-click Windows desktop launcher
 ├── README.md                    # Bilingual operational & hosting guide
 │
 ├── assets/                      # Static web assets
@@ -172,7 +172,7 @@ The platform is accessible at `http://your-server-ip:8080`.
 
 ### 7. 💻 Local Execution & Development (Hors-Ligne / Local)
 - **Direct Launch (No Node.js needed):**
-  - Double-click `launch_portal.bat` or open `index.html` directly in your browser.
+  - Double-click `scripts/launch_portal.bat` or open `index.html` directly in your browser.
 - **Node.js Local Server:**
   ```bash
   npm start

@@ -1,4 +1,11 @@
 /**
+ * Copyright (C) 2026 Adham Cherkaoui Eddeqaqi (0dh4m). All rights reserved.
+ * Proprietary and confidential. Unauthorized copying or distribution is strictly prohibited.
+ * Author: Adham Cherkaoui Eddeqaqi (0dh4m) <adamcherkaoui99@gmail.com>
+ * GitHub: https://github.com/0dh4m
+ */
+
+/**
  * CyberOps Academy - First-Day Mission Quest Engine
  * 4-step quick-start onboarding quest designed to give beginners instant
  * hands-on confidence, +100 XP, and their first cyber defense badge in under 5 minutes.

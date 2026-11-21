@@ -1,4 +1,11 @@
 /**
+ * Copyright (C) 2026 Adham Cherkaoui Eddeqaqi (0dh4m). All rights reserved.
+ * Proprietary and confidential. Unauthorized copying or distribution is strictly prohibited.
+ * Author: Adham Cherkaoui Eddeqaqi (0dh4m) <adamcherkaoui99@gmail.com>
+ * GitHub: https://github.com/0dh4m
+ */
+
+/**
  * CyberOps Academy - Career Roadmaps Engine
  * Manages interactive career pathway selection, stage timeline rendering,
  * and progress calculation for the 4 core cyber roles.

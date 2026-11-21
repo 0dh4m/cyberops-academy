@@ -1,4 +1,11 @@
 /**
+ * Copyright (C) 2026 Adham Cherkaoui Eddeqaqi (0dh4m). All rights reserved.
+ * Proprietary and confidential. Unauthorized copying or distribution is strictly prohibited.
+ * Author: Adham Cherkaoui Eddeqaqi (0dh4m) <adamcherkaoui99@gmail.com>
+ * GitHub: https://github.com/0dh4m
+ */
+
+/**
  * CyberOps Academy - CTF Challenges Database
  * Realistic hands-on capture the flag puzzles with SHA-256 flag verification
  * and 3-Tier Progressive Hint System (Nudge ➔ Clue ➔ Full Solution Walkthrough).

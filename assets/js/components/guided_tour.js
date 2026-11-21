@@ -1,4 +1,11 @@
 /**
+ * Copyright (C) 2026 Adham Cherkaoui Eddeqaqi (0dh4m). All rights reserved.
+ * Proprietary and confidential. Unauthorized copying or distribution is strictly prohibited.
+ * Author: Adham Cherkaoui Eddeqaqi (0dh4m) <adamcherkaoui99@gmail.com>
+ * GitHub: https://github.com/0dh4m
+ */
+
+/**
  * CyberOps Academy - Interactive Guided Onboarding Tour Component
  * 5-step spotlight walkthrough for beginners introducing the platform layout,
  * interactive labs, video masterclasses, and terminal shell.

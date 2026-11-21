@@ -1,5 +1,12 @@
 <?php
 /**
+ * Copyright (C) 2026 Adham Cherkaoui Eddeqaqi (0dh4m). All rights reserved.
+ * Proprietary and confidential. Unauthorized copying or distribution is strictly prohibited.
+ * Author: Adham Cherkaoui Eddeqaqi (0dh4m) <adamcherkaoui99@gmail.com>
+ * GitHub: https://github.com/0dh4m
+ */
+
+/**
  * CyberOps Academy - Authentication API
  * Supports: Sign Up (Password Hashing), Sign In (Verification), OAuth (Google, Discord, GitHub)
  * Targets: MySQL / MariaDB (cyberops database)

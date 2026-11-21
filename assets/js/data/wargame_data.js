@@ -1,4 +1,11 @@
 /**
+ * Copyright (C) 2026 Adham Cherkaoui Eddeqaqi (0dh4m). All rights reserved.
+ * Proprietary and confidential. Unauthorized copying or distribution is strictly prohibited.
+ * Author: Adham Cherkaoui Eddeqaqi (0dh4m) <adamcherkaoui99@gmail.com>
+ * GitHub: https://github.com/0dh4m
+ */
+
+/**
  * CyberOps Academy - Live SOC Incident Response Crisis Wargame Data
  * High-fidelity enterprise cyber crisis simulations based on real-world threat actors and NIST SP 800-61r2.
  * Language: Strictly English and French.

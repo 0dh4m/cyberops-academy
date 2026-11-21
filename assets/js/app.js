@@ -1,7 +1,7 @@
 /**
  * Copyright (C) 2026 Adham Cherkaoui Eddeqaqi (0dh4m). All rights reserved.
  * Proprietary and confidential. Unauthorized copying or distribution is strictly prohibited.
- * Author: Adham Cherkaoui Eddeqaqi (0dh4m) <adamcherkaoui99@gmail.com>
+ * Author: Adham Cherkaoui Eddeqaqi (0dh4m) <0dh4mm@gmail.com>
  * GitHub: https://github.com/0dh4m
  */
 
@@ -656,7 +656,7 @@ class CyberPlatformApp {
 
     if (providerHidden) providerHidden.value = provider;
 
-    const rememberedEmail = localStorage.getItem('cyberops_saved_email') || 'adamcherkaoui99@gmail.com';
+    const rememberedEmail = localStorage.getItem('cyberops_saved_email') || '0dh4mm@gmail.com';
     const rememberedName = localStorage.getItem('cyberops_saved_name') || 'Adam Cherkaoui';
 
     if (provider === 'discord') {
@@ -666,7 +666,7 @@ class CyberPlatformApp {
       if (nameLabel) nameLabel.innerText = isFr ? 'Pseudo / Tag Discord' : 'Discord Username / Tag';
       if (emailLabel) emailLabel.innerText = isFr ? 'Adresse Email Discord' : 'Discord Account Email';
       if (nameInput) { nameInput.placeholder = 'e.g. AstronMaster#0001'; nameInput.value = rememberedName; }
-      if (emailInput) { emailInput.placeholder = 'e.g. adamcherkaoui99@gmail.com'; emailInput.value = rememberedEmail; }
+      if (emailInput) { emailInput.placeholder = 'e.g. 0dh4mm@gmail.com'; emailInput.value = rememberedEmail; }
     } else if (provider === 'github') {
       if (iconEl) iconEl.innerText = '🐙';
       if (titleEl) titleEl.innerText = isFr ? 'Connexion Compte GitHub Réel' : 'Connect Real GitHub Account';
@@ -674,7 +674,7 @@ class CyberPlatformApp {
       if (nameLabel) nameLabel.innerText = isFr ? 'Nom d\'utilisateur GitHub' : 'GitHub Developer Username';
       if (emailLabel) emailLabel.innerText = isFr ? 'Email GitHub' : 'GitHub Account Email';
       if (nameInput) { nameInput.placeholder = 'e.g. Adam (Dev)'; nameInput.value = rememberedName; }
-      if (emailInput) { emailInput.placeholder = 'e.g. adamcherkaoui99@gmail.com'; emailInput.value = rememberedEmail; }
+      if (emailInput) { emailInput.placeholder = 'e.g. 0dh4mm@gmail.com'; emailInput.value = rememberedEmail; }
     } else {
       // Google
       if (iconEl) iconEl.innerText = '🌐';
@@ -683,7 +683,7 @@ class CyberPlatformApp {
       if (nameLabel) nameLabel.innerText = isFr ? 'Nom Complet Google' : 'Your Real Name (Google Profile)';
       if (emailLabel) emailLabel.innerText = isFr ? 'Adresse Email Google (Gmail)' : 'Google Account Email (Gmail)';
       if (nameInput) { nameInput.placeholder = 'e.g. Adam Cherkaoui'; nameInput.value = rememberedName; }
-      if (emailInput) { emailInput.placeholder = 'e.g. adamcherkaoui99@gmail.com'; emailInput.value = rememberedEmail; }
+      if (emailInput) { emailInput.placeholder = 'e.g. 0dh4mm@gmail.com'; emailInput.value = rememberedEmail; }
     }
 
     modal.style.display = 'flex';

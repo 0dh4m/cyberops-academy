@@ -1,7 +1,7 @@
 {
   "name": "cyberops-academy",
   "version": "1.0.0",
-  "description": "European Bachelor in Cybersecurity & Networks - MIAGE / FEDE Platform",
+  "description": "Interactive cybersecurity study platform built around the MIAGE / FEDE curriculum",
   "main": "index.html",
   "scripts": {
     "start": "npx serve -l 3000 .",
@@ -18,6 +18,6 @@
     "ai",
     "playgrounds"
   ],
-  "author": "CyberOps Academy",
-  "license": "MIT"
+  "author": "Adham Cherkaoui Eddeqaqi (0dh4m)",
+  "license": "SEE LICENSE IN LICENSE"
 }

@@ -16,7 +16,7 @@ class CyberI18nEngine {
       en: {
         // Navbar
         brandTitle: "CYBER<span>OPS</span> ACADEMY",
-        brandSub: "European Bachelor in Cybersecurity & Networks • MIAGE / FEDE",
+        brandSub: "Cybersecurity Study Platform • MIAGE / FEDE curriculum",
         navHomepage: "🏠 Home",
         audioEnabled: "🔊 Sound",
         audioMuted: "🔇 Muted",
@@ -44,13 +44,13 @@ class CyberI18nEngine {
         modeFreeAccess: "🔓 Free Access",
 
         // Landing Page
-        landingPill: "🛡️ CYBEROPS ACADEMY • EUROPEAN BACHELOR MIAGE / FEDE",
+        landingPill: "🛡️ CYBEROPS ACADEMY • CYBERSECURITY STUDY PLATFORM",
         landingHeadlineMain: "One platform.",
         landingHeadlineHighlight: "Total mastery.",
-        landingSubtitle: "European Bachelor in Cybersecurity & Networks — 19 academic modules, in-browser live labs, CTF arena, MITRE ATT&CK matrix, crisis wargames, and multi-model AI.",
+        landingSubtitle: "A cybersecurity & network defense study platform built around the MIAGE / FEDE curriculum — 19 academic modules, in-browser live labs, CTF arena, MITRE ATT&CK matrix, crisis wargames, and multi-model AI.",
         btnLaunchApp: "🚀 Launch Command Center",
         btnExploreLabs: "🧪 Explore Cyber Labs",
-        trustFede: "FEDE & MIAGE Accredited",
+        trustFede: "Independent Study Platform",
         trustBrowser: "100% In-Browser Interactive",
         trustBilingual: "Bilingual EN / FR",
         trustAi: "Multi-Model AI Mentor",
@@ -71,8 +71,8 @@ class CyberI18nEngine {
         featMitreDesc: "Explore all 13 Enterprise tactics and 26 techniques with mapped SIEM detection rules, APT threat actor profiles, and defensive mitigations.",
         featCtfTitle: "Hands-on CTF Arena",
         featCtfDesc: "Tackle 8 multi-category capture the flag puzzles. Decode Base64/Hex/ROT13 payloads, bypass login logic, and validate flags with SHA-256.",
-        featExamTitle: "FEDE Exam Simulator",
-        featExamDesc: "Prepare for the European Bachelor certification with randomized 60-question exams, timer controls, detailed breakdowns, and printable diploma.",
+        featExamTitle: "FEDE-Style Exam Simulator",
+        featExamDesc: "Practice with randomized 10-question exams, timer controls, detailed breakdowns, and a printable practice certificate.",
         featFlashcardsTitle: "Spaced Repetition Flashcards",
         featFlashcardsDesc: "Reinforce protocol ports, RFC standards, cryptographic primitives, and forensics commands using the scientifically-proven Leitner system.",
         featTutorialsTitle: "Video Masterclasses & Beginner Guides",
@@ -83,7 +83,7 @@ class CyberI18nEngine {
         featThreatRadarDesc: "Simulated real-time cyber attack map with vector arcs, global targets, and streaming SIEM telemetry.",
         btnLaunchSection: "Launch Experience →",
         bottomCtaTitle: "Ready to Accelerate Your Cybersecurity Career?",
-        bottomCtaDesc: "Join the elite cohort of European Bachelor candidates mastering modern network defense, DevSecOps, and incident response.",
+        bottomCtaDesc: "Join a growing community of learners mastering modern network defense, DevSecOps, and incident response.",
 
         // Landing Navbar Links
         navLandingOverview: "Overview",
@@ -121,25 +121,25 @@ class CyberI18nEngine {
 
         explainTag: "Academic & Hands-on Pedagogy",
         explainTitle: "What is CyberOps Academy?",
-        explainSub: "A comprehensive, 100% interactive learning environment built specifically for the European Bachelor in Cybersecurity & Networks (MIAGE / FEDE).",
-        pillar1Title: "Official 19-Module Syllabus",
-        pillar1Desc: "Structured European academic program covering Linux/Windows systems, Cisco networks, Cryptography, DevSecOps, and ISO 27001 governance.",
+        explainSub: "A comprehensive, 100% interactive study environment built around the MIAGE / FEDE cybersecurity curriculum.",
+        pillar1Title: "19-Module Syllabus",
+        pillar1Desc: "Structured study program covering Linux/Windows systems, Cisco networks, Cryptography, DevSecOps, and ISO 27001 governance.",
         pillar2Title: "6 In-Browser Virtual Labs",
         pillar2Desc: "Real-world Wireshark packet captures, SQL injection sandboxes, VLSM subnetting calculators, and cryptanalysis decoders with zero installation.",
         pillar3Title: "Live SOC Incident Simulation",
-        pillar3Desc: "Train like a SOC Analyst. Contain ransomware outbreaks, stop APT DNS tunneling, crack CTF ciphers, and earn European credentials.",
+        pillar3Desc: "Train like a SOC Analyst. Contain ransomware outbreaks, stop APT DNS tunneling, crack CTF ciphers, and earn in-app completion badges.",
         stepsTag: "Student Workflow",
         stepsTitle: "How It Works in 3 Simple Steps",
         step1Title: "1. Student Authentication",
         step1Desc: "Access your student workspace using your academic email and credentials to begin tracking coursework and certifications.",
         step2Title: "2. Complete Modules & Unlock Labs",
         step2Desc: "Earn XP, unlock advanced MITRE tactics, crack CTF ciphers, and defend hybrid enterprise servers in crisis wargames.",
-        step3Title: "3. Pass FEDE Certification Exam",
-        step3Desc: "Test yourself against the 60-question timed European Bachelor simulator and export your official validation certificate.",
+        step3Title: "3. Practice the FEDE-Style Exam",
+        step3Desc: "Test yourself against the 10-question timed simulator and export a practice completion certificate.",
 
         // Student Auth Modal
         authModalTitle: "Student Portal Access",
-        authModalSub: "European Bachelor in Cybersecurity & Networks",
+        authModalSub: "Cybersecurity & Network Defense Study Platform",
         authTabSignIn: "🔑 Sign In",
         authTabSignUp: "✨ Sign Up",
         authEmail: "Student Email / FEDE ID",
@@ -185,7 +185,7 @@ class CyberI18nEngine {
 
         // Hero Dashboard
         heroTitle: "Security Operations Command Center 🚀",
-        heroSub: "Master European academic milestones, execute in-browser security labs, train with multi-model AI, and prepare for FEDE certification.",
+        heroSub: "Master the study milestones, execute in-browser security labs, train with multi-model AI, and prepare for FEDE-style exams.",
         completionRate: "Curriculum Completion Rate (Progression Globale)",
         statModules: "Validated Modules",
         statXp: "SecOps Experience",
@@ -233,12 +233,12 @@ class CyberI18nEngine {
         labPassword: "🔑 Password Entropy & Cracker",
 
         // Exam Simulator
-        examTitle: "FEDE European Bachelor Examination Simulator",
-        examIntroDesc: "Official timed examination simulator for the Bachelor Européen Cybersécurité et Gestion des Réseaux (Groupe MIAGE / FEDE).",
+        examTitle: "FEDE-Style Examination Simulator",
+        examIntroDesc: "Timed practice simulator inspired by the Bachelor Européen Cybersécurité et Gestion des Réseaux curriculum (MIAGE / FEDE). Not an official FEDE examination.",
         examRule1: "⏱️ Duration: 15 Minutes timed countdown",
-        examRule2: "📋 Format: 10 randomized multiple-choice questions across all 19 modules",
-        examRule3: "🎯 Passing Standard: Minimum 10/20 (50%) required for diploma validation",
-        examRule4: "📜 Official Deliverable: Printable European Certificate of Achievement with verification signature",
+        examRule2: "📋 Format: 10 randomized multiple-choice questions drawn from the study bank",
+        examRule3: "🎯 Passing Standard: Minimum 10/20 (50%) required for the practice certificate",
+        examRule4: "📜 Deliverable: Printable practice certificate with a local verification hash",
         btnStartExam: "🚀 Begin Timed Examination",
         btnPrev: "← Previous",
         btnNext: "Next →",
@@ -259,7 +259,7 @@ class CyberI18nEngine {
 
         // Authentication & Student Portal
         authModalTitle: "CyberOps Student Portal",
-        authModalSub: "European Bachelor in Cybersecurity & Networks • MIAGE / FEDE",
+        authModalSub: "Cybersecurity & Network Defense Study Platform",
         authSocialLabel: "Fast Access via Academic SSO",
         authDivider: "OR CONTINUE WITH EMAIL",
         authTabSignIn: "🔑 Sign In",
@@ -277,7 +277,7 @@ class CyberI18nEngine {
       fr: {
         // Navbar
         brandTitle: "CYBER<span>OPS</span> ACADÉMIE",
-        brandSub: "Bachelor Européen en Cybersécurité et Gestion des Réseaux • MIAGE / FEDE",
+        brandSub: "Plateforme d'étude en cybersécurité • Programme MIAGE / FEDE",
         navHomepage: "🏠 Accueil",
         audioEnabled: "🔊 Son",
         audioMuted: "🔇 Muet",
@@ -305,13 +305,13 @@ class CyberI18nEngine {
         modeFreeAccess: "🔓 Accès Libre",
 
         // Landing Page
-        landingPill: "🛡️ CYBEROPS ACADÉMIE • BACHELOR EUROPÉEN MIAGE / FEDE",
+        landingPill: "🛡️ CYBEROPS ACADÉMIE • PLATEFORME D'ÉTUDE EN CYBERSÉCURITÉ",
         landingHeadlineMain: "Une plateforme.",
         landingHeadlineHighlight: "Maîtrise totale.",
-        landingSubtitle: "Bachelor Européen en Cybersécurité et Réseaux — 19 modules académiques, laboratoires pratiques, arène CTF, matrice MITRE ATT&CK, wargames de crise et IA multi-modèles.",
+        landingSubtitle: "Une plateforme d'étude en cybersécurité et défense réseau basée sur le programme MIAGE / FEDE — 19 modules académiques, laboratoires pratiques, arène CTF, matrice MITRE ATT&CK, wargames de crise et IA multi-modèles.",
         btnLaunchApp: "🚀 Lancer le Centre de Commandement",
         btnExploreLabs: "🧪 Explorer les Laboratoires",
-        trustFede: "Accrédité FEDE & MIAGE",
+        trustFede: "Plateforme d'étude indépendante",
         trustBrowser: "100% Interactif dans le Navigateur",
         trustBilingual: "Bilingual EN / FR",
         trustAi: "Mentor IA Multi-Modèles",
@@ -333,7 +333,7 @@ class CyberI18nEngine {
         featCtfTitle: "Arène de Défis CTF Pratiques",
         featCtfDesc: "Relevez 8 énigmes de capture du drapeau multi-catégories. Décodez des payloads Base64/Hex/ROT13, contournez les authentifications et validez vos flags.",
         featExamTitle: "Simulateur d'Examen FEDE",
-        featExamDesc: "Préparez la certification du Bachelor Européen avec des examens aléatoires de 60 questions, chronomètre, correction détaillée et diplôme officiel.",
+        featExamDesc: "Entraînez-vous avec des examens aléatoires de 10 questions, chronomètre, correction détaillée et attestation d'entraînement imprimable.",
         featFlashcardsTitle: "Cartes Mémoire à Répétition Espacée",
         featFlashcardsDesc: "Mémorisez durablement les ports de protocoles, normes RFC, primitives cryptographiques et commandes d'investigation numérique avec le système Leitner.",
         featTutorialsTitle: "Masterclasses Vidéo & Guides Débutants",
@@ -344,7 +344,7 @@ class CyberI18nEngine {
         featThreatRadarDesc: "Cartographie interactive des cyberattaques avec arcs vectoriels, cibles mondiales et flux SIEM en temps réel.",
         btnLaunchSection: "Lancer l'Expérience →",
         bottomCtaTitle: "Prêt à Accélérer Votre Carrière en Cybersécurité ?",
-        bottomCtaDesc: "Rejoignez la cohorte d'élite des candidats au Bachelor Européen maîtrisant la défense réseau moderne, le DevSecOps et la réponse aux incidents.",
+        bottomCtaDesc: "Rejoignez une communauté grandissante d'apprenants maîtrisant la défense réseau moderne, le DevSecOps et la réponse aux incidents.",
 
         // Landing Navbar Links
         navLandingOverview: "Présentation",
@@ -382,25 +382,25 @@ class CyberI18nEngine {
 
         explainTag: "Pédagogie Académique & Pratique",
         explainTitle: "Qu'est-ce que CyberOps Academy ?",
-        explainSub: "Un environnement d'apprentissage complet et 100% interactif conçu spécifiquement pour le Bachelor Européen en Cybersécurité & Réseaux (MIAGE / FEDE).",
-        pillar1Title: "Syllabus Officiel de 19 Modules",
-        pillar1Desc: "Programme académique européen structuré couvrant Systèmes Linux/Windows, Réseaux Cisco, Cryptographie, DevSecOps et Gouvernance ISO 27001.",
+        explainSub: "Un environnement d'apprentissage complet et 100% interactif basé sur le programme de cybersécurité MIAGE / FEDE.",
+        pillar1Title: "Syllabus de 19 Modules",
+        pillar1Desc: "Programme d'étude structuré couvrant Systèmes Linux/Windows, Réseaux Cisco, Cryptographie, DevSecOps et Gouvernance ISO 27001.",
         pillar2Title: "6 Laboratoires Virtuels en Navigateur",
         pillar2Desc: "Captures de trames Wireshark, bac à sable d'injections SQL, calculateurs de sous-réseaux VLSM et décodeurs cryptographiques sans aucune installation.",
         pillar3Title: "Simulation d'Incidents SOC en Direct",
-        pillar3Desc: "Entraînez-vous comme un analyste SOC. Contenez des ransomwares réels, stoppez le tunneling DNS APT, résolvez des défis CTF et préparez l'examen FEDE.",
+        pillar3Desc: "Entraînez-vous comme un analyste SOC. Contenez des ransomwares, stoppez le tunneling DNS APT, résolvez des défis CTF et gagnez des badges de progression.",
         stepsTag: "Parcours Étudiant",
         stepsTitle: "Comment ça marche en 3 étapes simples",
         step1Title: "1. Authentification Étudiante",
         step1Desc: "Accédez à votre espace académique avec votre email universitaire et vos identifiants pour démarrer votre formation.",
         step2Title: "2. Validez les Modules & Débloquez les Labs",
         step2Desc: "Gagnez de l'XP, débloquez les tactiques MITRE, résolvez des défis CTF et défendez les serveurs d'entreprise en temps réel.",
-        step3Title: "3. Réussissez l'Examen FEDE Certifié",
-        step3Desc: "Mesurez-vous au simulateur chronométré de 60 questions du Bachelor Européen et exportez votre attestation officielle.",
+        step3Title: "3. Pratiquez l'Examen Type FEDE",
+        step3Desc: "Mesurez-vous au simulateur chronométré de 10 questions et exportez une attestation d'entraînement.",
 
         // Student Auth Modal
         authModalTitle: "Accès au Portail Étudiant",
-        authModalSub: "Bachelor Européen en Cybersécurité & Réseaux",
+        authModalSub: "Plateforme d'étude en cybersécurité et défense réseau",
         authTabSignIn: "🔑 Connexion",
         authTabSignUp: "✨ Inscription",
         authEmail: "Email Étudiant / Identifiant FEDE",
@@ -446,7 +446,7 @@ class CyberI18nEngine {
 
         // Hero Dashboard
         heroTitle: "Centre de Commandement des Opérations de Sécurité 🚀",
-        heroSub: "Maîtrisez le programme européen, réalisez des laboratoires pratiques, entraînez-vous avec l'IA multi-modèles et préparez l'examen FEDE.",
+        heroSub: "Maîtrisez les étapes du programme, réalisez des laboratoires pratiques, entraînez-vous avec l'IA multi-modèles et préparez les examens type FEDE.",
         completionRate: "Taux d'Avancement Global du Programme",
         statModules: "Modules Validés",
         statXp: "Expérience SecOps",
@@ -494,12 +494,12 @@ class CyberI18nEngine {
         labPassword: "🔑 Entropie & Casseur de Mots de Passe",
 
         // Exam Simulator
-        examTitle: "Simulateur d'Examen Officiel du Bachelor Européen FEDE",
-        examIntroDesc: "Simulateur d'épreuve officielle chronométrée pour le Bachelor Européen en Cybersécurité et Gestion des Réseaux (Groupe MIAGE / FEDE).",
+        examTitle: "Simulateur d'Examen Type FEDE",
+        examIntroDesc: "Simulateur d'entraînement chronométré inspiré du programme Bachelor Européen en Cybersécurité et Gestion des Réseaux (MIAGE / FEDE). Il ne s'agit pas d'un examen officiel FEDE.",
         examRule1: "⏱️ Durée de l'épreuve : 15 Minutes compte à rebours",
-        examRule2: "📋 Format : 10 questions à choix multiples tirées au sort sur les 19 modules",
-        examRule3: "🎯 Seuil d'admissibilité : Note minimale de 10/20 (50%) requise pour validation",
-        examRule4: "📜 Livrable officiel : Attestation Européenne de Réussite imprimable avec signature numérique",
+        examRule2: "📋 Format : 10 questions à choix multiples tirées au sort dans la banque d'étude",
+        examRule3: "🎯 Seuil de réussite : Note minimale de 10/20 (50%) pour l'attestation d'entraînement",
+        examRule4: "📜 Livrable : Attestation d'entraînement imprimable avec empreinte de vérification locale",
         btnStartExam: "🚀 Démarrer l'Examen Chronométré",
         btnPrev: "← Précédent",
         btnNext: "Suivant →",
@@ -520,7 +520,7 @@ class CyberI18nEngine {
 
         // Authentication & Student Portal
         authModalTitle: "Portail Étudiant CyberOps",
-        authModalSub: "Bachelor Européen en Cybersécurité & Réseaux • MIAGE / FEDE",
+        authModalSub: "Plateforme d'étude en cybersécurité et défense réseau",
         authSocialLabel: "Accès Rapide via SSO Académique",
         authDivider: "OU CONTINUER AVEC EMAIL",
         authTabSignIn: "🔑 Se Connecter",

@@ -39,38 +39,38 @@ global.document = {
 console.log("=== RUNNING CYBEROPS ACADEMY FULL SUITE VERIFICATION ===");
 
 // 1. Core
-require('./assets/js/core/utils.js');
-require('./assets/js/core/audio.js');
-require('./assets/js/core/voice_mentor.js');
-require('./assets/js/core/state.js');
-require('./assets/js/core/i18n.js');
+require('../assets/js/core/utils.js');
+require('../assets/js/core/audio.js');
+require('../assets/js/core/voice_mentor.js');
+require('../assets/js/core/state.js');
+require('../assets/js/core/i18n.js');
 
 // 2. Data
-require('./assets/js/data/modules_data.js');
-require('./assets/js/data/exam_data.js');
-require('./assets/js/data/flashcards_data.js');
-require('./assets/js/data/ctf_data.js');
-require('./assets/js/data/mitre_data.js');
-require('./assets/js/data/wargame_data.js');
-require('./assets/js/data/tutorials_data.js');
-require('./assets/js/data/career_data.js');
-require('./assets/js/data/cheatsheets_data.js');
-require('./assets/js/data/badges_data.js');
-require('./assets/js/data/glossary_data.js');
+require('../assets/js/data/modules_data.js');
+require('../assets/js/data/exam_data.js');
+require('../assets/js/data/flashcards_data.js');
+require('../assets/js/data/ctf_data.js');
+require('../assets/js/data/mitre_data.js');
+require('../assets/js/data/wargame_data.js');
+require('../assets/js/data/tutorials_data.js');
+require('../assets/js/data/career_data.js');
+require('../assets/js/data/cheatsheets_data.js');
+require('../assets/js/data/badges_data.js');
+require('../assets/js/data/glossary_data.js');
 
 // 3. Components & Labs
-require('./assets/js/components/ctf_engine.js');
-require('./assets/js/components/mitre_navigator.js');
-require('./assets/js/components/wargame_engine.js');
-require('./assets/js/components/tutorials_hub.js');
-require('./assets/js/components/career_roadmaps.js');
-require('./assets/js/components/threat_radar.js');
-require('./assets/js/components/cheatsheet_vault.js');
-require('./assets/js/components/badges_passport.js');
-require('./assets/js/components/cyber_glossary.js');
-require('./assets/js/components/guided_tour.js');
-require('./assets/js/components/first_day_quest.js');
-require('./assets/js/components/diagnostic_quiz.js');
+require('../assets/js/components/ctf_engine.js');
+require('../assets/js/components/mitre_navigator.js');
+require('../assets/js/components/wargame_engine.js');
+require('../assets/js/components/tutorials_hub.js');
+require('../assets/js/components/career_roadmaps.js');
+require('../assets/js/components/threat_radar.js');
+require('../assets/js/components/cheatsheet_vault.js');
+require('../assets/js/components/badges_passport.js');
+require('../assets/js/components/cyber_glossary.js');
+require('../assets/js/components/guided_tour.js');
+require('../assets/js/components/first_day_quest.js');
+require('../assets/js/components/diagnostic_quiz.js');
 
 // Assertions
 let passed = 0;
@@ -161,7 +161,7 @@ requiredAuthKeys.forEach(k => {
 });
 
 // Test HTML file structure for OAuth and Auth elements
-const indexHtml = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
+const indexHtml = fs.readFileSync(path.join(__dirname, '..', 'index.html'), 'utf8');
 assert(indexHtml.includes('auth-social-btn google'), "index.html contains Google OAuth button");
 assert(indexHtml.includes('auth-social-btn github'), "index.html contains GitHub OAuth button");
 assert(indexHtml.includes('auth-social-btn discord'), "index.html contains Discord OAuth button");

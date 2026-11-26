@@ -1,8 +1,8 @@
 # 🗄️ CyberOps Academy Database Architecture & Deployment Guide
 
-This directory contains the production-grade SQL database schema and seeds for the **CyberOps Academy Platform**.
+This directory contains the SQL database schema and seed data for the **CyberOps Academy Platform**.
 
-- **File**: [`schema.sql`](file:///c:/Users/adamc/OneDrive/Desktop/AstronBot/cybersec_platform/database/schema.sql)
+- **File**: [`schema.sql`](schema.sql)
 - **Engine**: Fully compatible with PostgreSQL 14+, Supabase, Neon, AWS RDS, GCP Cloud SQL, or MySQL 8+ / MariaDB.
 
 ---
@@ -14,12 +14,12 @@ The database is structured into 12 normalized domains:
 | # | Domain Table | Description |
 |---|---|---|
 | **1** | `users` & `student_profiles` | User identity, OAuth (Google, GitHub, Discord), roles, Student IDs (`FEDE-2026-XXXX`), XP, ranks, and streaks |
-| **2** | `curriculum_phases` & `modules` | 19 official FEDE European Bachelor modules, syllabus, ECTS credits, and hours |
+| **2** | `curriculum_phases` & `modules` | 19 curriculum modules, syllabus, ECTS-style credits, and hours |
 | **3** | `user_module_progress` | Module validation status, progress percentage, and personal student notes |
 | **4** | `tutorials` & `user_tutorial_progress` | 12 Video Masterclasses, watch duration, ELIF5 text, and quiz completion |
 | **5** | `ctf_challenges` & `ctf_submissions` | 8 multi-category CTF challenges with SHA-256 flag validation and 3-tier hints |
-| **6** | `exam_questions` & `exam_sessions` | 60-question timed European Bachelor simulator, scoring (/20), and pass status |
-| **7** | `certificates` | Official tamper-proof graduation certificates with unique verification hash and QR payload |
+| **6** | `exam_questions` & `exam_sessions` | 12-question bank behind the 10-question timed practice simulator, scoring (/20), and pass status |
+| **7** | `certificates` | Practice completion certificates with a local verification hash and QR payload |
 | **8** | `wargame_scenarios` & `wargame_runs` | SOC Incident Response crisis runs (integrity, exfiltration loss, outcome) |
 | **9** | `badges` & `user_badges` | 13 collectible gamification badges with XP rewards |
 | **10** | `user_first_day_quests` | 4-step quick-start onboarding mission tracking for beginners |
